@@ -1,0 +1,32 @@
+.line-decoration{
+    margin-top:40px;
+    width:100%;
+}
+.title-page{
+    font-family: "Quicksand";
+    text-align: center;
+}
+.div-video{
+    margin:20px 0 0 0;
+}
+.info-video{
+    padding-left:20px; 
+}
+.info{
+    text-align: left;
+}
+.avatar{
+    padding-left:15px !important;
+   
+}
+.avatar-image{
+    border-radius: 100%;
+}
+.info-song{
+    padding:0px 15px;
+    text-align: left;
+    margin-top: 15px;
+}
+.recommend{
+    padding: 7px !important;
+}

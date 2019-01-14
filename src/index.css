@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.unit {
+  text-align: center;
+}
+.line-decoration{
+  margin: 35px 0;
+  border: black 1px solid;
+}
+
+.new-product{
+  margin: 50px 0;
+}
+
+.product-item{
+  /* border: black 2px solid; */
+  /* border: black 1px solid; */
+  /* width: 100%; */
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.product{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.product-item:hover{
+  -webkit-box-shadow: -18px -7px 131px -42px rgba(0,0,0,0.75);
+  -moz-box-shadow: -18px -7px 131px -42px rgba(0,0,0,0.75);
+  box-shadow: -18px -7px 131px -42px rgba(0,0,0,0.75);
+}
+.title{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+ 
+}
+.btn-more{
+  width:100%;
+}
+

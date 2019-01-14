@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+@media (max-width: 990px) {
+  .header-layout{
+    display: none !important;
+  }
+  .myCarousel{
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .header-layout{
+    display: block !important;
+  }
+}
+.my-row{
+  padding: 0px;
+  margin:0px;
+}
+.my-guitarist{
+  text-align: center;
+}
+body{
+  font-family: 'QuickSand';
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.loading{
+  margin-left:42%;
+  width:15%;
+}
+.ui-widget-content{
+  width:300px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color:white;
+  color:white !important;
+  display: none;
+}
+.ui-helper-hidden-accessible{
+  display: none;
+}
+.App-link {
+  color: #61dafb;
+}
+.carousel{
+  margin:-18px 0 0 0 ;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.dropdown-submenu {
+  position: relative;
+}
+#basic-nav-dropdown:hover {
+  background-color: #61dafb;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.product-item{
+  color:black;
+}
